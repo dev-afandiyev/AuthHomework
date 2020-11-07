@@ -1,8 +1,10 @@
-package com.example.homeworkauth;
+package com.example.homeworkauth.ui.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.homeworkauth.R;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -11,4 +13,5 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+
 }
