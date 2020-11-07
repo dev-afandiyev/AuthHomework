@@ -13,7 +13,6 @@ public class AuthPresenter implements IAuthPresenter {
     @Override
     public void onLogin(String email, String password) {
 
-
     }
 
 }
