@@ -38,8 +38,8 @@ public class MainActivity extends AppCompatActivity implements IAuthView{
             @Override
             public void onClick(View view) {
                 iAuthPresenter.onLogin(edt_email.getText().toString(), edt_password.getText().toString());
-//                    Intent intent = new Intent(MainActivity.this, UserList.class);
-//                    startActivity(intent);
+                // Intent intent = new Intent(MainActivity.this, UserList.class);
+                //startActivity(intent);
             }
         });
     }
